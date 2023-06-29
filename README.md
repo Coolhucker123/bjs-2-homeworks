@@ -73,3 +73,5 @@ URL адрес этой страницы будет являться URL адр�
 [5]: https://github.com/netology-code/guides/blob/master/git/README.md
 [6]: https://netology.ru/
 [7]: https://github.com/
+sda
+
