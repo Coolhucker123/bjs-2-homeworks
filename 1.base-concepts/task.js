@@ -19,8 +19,8 @@ let arr = [];
 function calculateTotalMortgage(percent, contribution, amount, countMonths) {
   percent = percent / 1200;
   let credit = amount - contribution;
-  let mounthPay = credit * (percent + (percent / ((Math.pow((1 + percent), countMonths)) - 1)));
-  return +mounthPay.toFixed(2);
-  let total = mounthPay * countMonths;
+  let monthPay = credit * (percent + (percent / ((Math.pow((1 + percent), countMonths)) - 1)));
+  let total = monthPay * countMonths;
+  return parseFloat(total.toFixed(2));
 }
 console.log(calculateTotalMortgage(15, 0, 10000, 36));
